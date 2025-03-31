@@ -1,0 +1,72 @@
+.main {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+  padding-top: 77px;
+  padding-bottom: 53px;
+}
+h1 {
+  text-align: center;
+  font-size: 88px;
+  margin-top: 0px;
+  color: aliceblue;
+  text-shadow: 0 0 18px red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background: linear-gradient(15deg, rgb(149, 38, 38) 20%, rgb(25, 9, 61) 60%);
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-family: caveat;
+}
+.pr {
+  background-color: rgb(212, 208, 202);
+  height: 120px;
+  width: 130px;
+  font-size: 60px;
+  font-weight: 700;
+  text-shadow: 0 0 8px red;
+  border-radius: 7px;
+  border-width: 8px;
+  border-color: rgb(102, 133, 124);
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: outfit;
+}
+#w {
+  background-image: url("images/crash.png");
+}
+#a {
+  background-image: url("images/kick.png");
+}
+#s {
+  background-image: url("images/snare.png");
+}
+#d {
+  background-image: url("images/tom1.png");
+}
+#j {
+  background-image: url("images/tom2.png");
+}
+#k {
+  background-image: url("images/tom3.png");
+}
+#l {
+  background-image: url("images/tom4.png");
+}
+.pressed {
+  box-shadow: 0px 3px 4px 0px;
+  opacity: 0.5;
+}
