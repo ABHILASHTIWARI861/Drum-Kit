@@ -13,8 +13,7 @@
 var res = document.querySelectorAll(".pr").length;
 for (var i = 0; i < res; i++) {
   document
-    .querySelectorAll(".pr")
-    [i].addEventListener("click", function (event) {
+    .querySelectorAll(".pr")[i].addEventListener("click", function (event) {
       var select = this.innerHTML;
       sachin(select);
       last_dekho(select);
