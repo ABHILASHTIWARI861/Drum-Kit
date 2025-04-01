@@ -12,7 +12,6 @@ h1 {
   font-size: 88px;
   margin-top: 0px;
   color: aliceblue;
-  text-shadow: 0 0 18px red;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body {
@@ -71,5 +70,6 @@ footer {
 .pressed {
   box-shadow: 0px 3px 4px 0px;
   opacity: 0.5;
+  text-shadow: 0 2px 18px yellow;
 }
 
